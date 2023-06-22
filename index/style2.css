@@ -1,0 +1,49 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Grandiflora+One&family=Merriweather:wght@700&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+nav {
+    width: 100%;
+    height: 120px;
+    /* border: 1px solid red; */
+    display: flex;
+    background-color: rgba(2, 9, 81, 0.215);
+    /* border-radius: 40px;     */
+
+}
+
+/* .logo {
+    padding-top: 35px;
+    margin: 0 155px;
+} */
+
+nav li {
+    display: inline-block;
+    color: #fff;
+    
+    margin-left: 220px;
+    margin-top: 40px;
+    font-size: 20px;
+    /* font-family: 'Permanent Marker', sans-serif; */
+    letter-spacing :3px;
+    font-family: 'Merriweather', serif;
+}
+
+header {
+    /* border: 1px solid red; */
+    width: 100%;
+    height: 100vh;
+    /* background-image: url(img/guam_1.jpg); */
+    /* background-image: url(img/we3.JPG); */
+    background-position: center;
+    background-size: cover;
+    background-color: beige;
+    /* border-image-slice: 30%; */
+}
